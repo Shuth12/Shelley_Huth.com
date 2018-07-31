@@ -1,0 +1,1883 @@
+/* ======================================================================== */
+/* ===================== STYLES FOR MOBILE DEVICE ========================= */
+/* ======================================================================== */
+
+  a, p, h1, h2, h3, ul, ol, li, img{
+    margin: 0;
+    padding: 0;
+  }
+
+  ul, ol, li{
+    list-style: none;
+  }
+
+  body{
+    background-color: #f7f7f7;
+    margin: 0;
+  }
+
+  /* TOP NAVIGATION */
+
+  .topnav{
+    width: 350px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .dropbtn {
+    background: url("../img/dropdown.png") no-repeat;
+    width: 24px;
+    height: 18px;
+    border: none;
+    cursor: pointer;
+  }
+
+.dropdown {
+    background: url("../img/dropdown.png") no-repeat;
+    width: 24px;
+    height: 18px;
+    position: relative;
+    margin-top: -15px;
+    margin-left: -15px;
+    display: inline-block;
+    /*position: fixed;*//*This was declared a second time above is relative...Cant have two positions*/
+    z-index: 99;
+}
+
+  .dropdown-content {
+      display: none;
+      position: absolute;
+      z-index: 1;
+  }
+
+  .dropdown-content:hover {
+    cursor: pointer;
+  }
+
+  .dropdown:hover .dropdown-content {
+      display: block;
+  }
+
+  .dropdown:hover .dropbtn {
+      display: none;
+  }
+
+  .navigation{
+    display: none;
+  }
+
+  #home01{
+    background: url("../img/home01.png") no-repeat;
+    width: 65px;
+    height: 24px;
+  }
+
+  #home01:hover{
+    background: url("../img/homehover01.png") no-repeat;
+    width: 65px;
+    height: 24px;
+  }
+
+  #about01{
+    background: url("../img/about01.png") no-repeat;
+    width: 65px;
+    height: 24px;
+  }
+
+  #about01:hover{
+    background: url("../img/abouthover01.png") no-repeat;
+    width: 65px;
+    height: 24px;
+  }
+
+  #portfolio01{
+    background: url("../img/portfolio01.png") no-repeat;
+    width: 65px;
+    height: 24px;
+  }
+
+  #portfolio01:hover{
+    background: url("../img/portfoliohover01.png") no-repeat;
+    width: 65px;
+    height: 24px;
+  }
+
+  #services01{
+    background: url("../img/services01.png") no-repeat;
+    width: 65px;
+    height: 24px;
+  }
+
+  #services01:hover{
+    background: url("../img/serviceshover01.png") no-repeat;
+    width: 65px;
+    height: 24px;
+  }
+
+  #contact01{
+    background: url("../img/contact01.png") no-repeat;
+    width: 65px;
+    height: 24px;
+  }
+
+  #contact01:hover{
+    background: url("../img/contacthover01.png") no-repeat;
+    width: 65px;
+    height: 24px;
+  }
+
+  #logo{
+    background: url("../img/logoheader01.png") no-repeat;
+    width: 209px;
+    height: 131px;
+    display: block;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 20px;
+  }
+
+  /* ABOUT SECTION */
+
+  .about{
+    background-color: #94aca2;
+    height: 750px;
+    width: 100%;
+    padding-top: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+  }
+
+  #me{
+    background: url("../img/me01.png") no-repeat;
+    width: 141px;
+    height: 140px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+  }
+
+  #welcome{
+    background: url("../img/welcome01.png") no-repeat;
+    width: 212px;
+    height: 149px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+  }
+
+  #textbox01{
+    width: 350px;
+    height: 282px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+  }
+
+  .about p{
+    font-family: 'Oswald', sans-serif;
+    font-size: 12pt;
+    letter-spacing: 0.046em;
+    color: #f7f7f7;
+    font-weight: 300;
+    text-decoration: none;
+    margin-top: 30px;
+  }
+
+  /* PORTFOLIO */
+
+  .portfolio{
+    width: 350px;
+    height: 525px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+  }
+
+  #featured{
+    width: 135px;
+    height: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    padding-bottom: 25px;
+  }
+
+  #featured h1{
+    font-family: 'Oswald', sans-serif;
+    font-size: 14pt;
+    letter-spacing: 0.046em;
+    color: #5d5d64;
+    font-weight: 300;
+    text-decoration: none;
+    margin-top: 30px;
+    text-align: center;
+  }
+
+  #print{
+    background: url("../img/print01.jpg") no-repeat;
+    width: 131px;
+    height: 131px;
+    margin-top: 5px;
+    margin-left: 30px;
+    float: left;
+  }
+
+  #print:hover{
+    background: url("../img/hover_print01.jpg") no-repeat;
+    width: 131px;
+    height: 131px;
+  }
+
+  #packaging{
+    background: url("../img/packaging01.jpg") no-repeat;
+    width: 131px;
+    height: 131px;
+    margin-top: 5px;
+    margin-right: 30px;
+    float: right;
+  }
+
+  #packaging:hover{
+    background: url("../img/hover_packaging01.jpg") no-repeat;
+    width: 131px;
+    height: 131px;
+  }
+
+  #web{
+    background: url("../img/web01.jpg") no-repeat;
+    width: 131px;
+    height: 131px;
+    margin-top: 25px;
+    margin-left: 30px;
+    float: left;
+  }
+
+  #web:hover{
+    background: url("../img/hover_web01.jpg") no-repeat;
+    width: 131px;
+    height: 131px;
+  }
+
+  #social{
+    background: url("../img/social01.jpg") no-repeat;
+    width: 131px;
+    height: 131px;
+    margin-top: 25px;
+    margin-right: 30px;
+    float: right;
+  }
+
+  #social:hover{
+    background: url("../img/hover_social01.jpg") no-repeat;
+    width: 131px;
+    height: 131px;
+  }
+
+  #branding{
+    background: url("../img/branding01.jpg") no-repeat;
+    width: 131px;
+    height: 131px;
+    margin-top: 25px;
+    margin-left: 30px;
+    float: left;
+  }
+
+  #branding:hover{
+    background: url("../img/hover_branding01.jpg") no-repeat;
+    width: 131px;
+    height: 131px;
+  }
+
+  #other{
+    background: url("../img/other01.jpg") no-repeat;
+    width: 131px;
+    height: 131px;
+    margin-top: 25px;
+    margin-right: 30px;
+    float: right;
+  }
+
+  #other:hover{
+    background: url("../img/hover_other01.jpg") no-repeat;
+    width: 131px;
+    height: 131px;
+  }
+
+  /* SERVICES */
+
+  .services{
+    background-color: #c07d5d;
+    width: 100%;
+    height: 690px;
+    padding-top: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+  }
+
+  #sketchbook{
+    background: url("../img/sketchbook01.png") no-repeat;
+    width: 141px;
+    height: 141px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+  }
+
+  #getby{
+    width: 200px;
+    height: 36px;
+    margin-top: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    padding-bottom: 10PX;
+  }
+
+  #getby h1{
+    font-family: 'Oswald', sans-serif;
+    font-size: 14pt;
+    letter-spacing: 0.046em;
+    color: #f7f7f7;
+    font-weight: 300;
+    text-decoration: none;
+    margin-top: 30px;
+    text-align: center;
+  }
+
+  #textbox02{
+    width: 350px;
+    height: 297px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+  }
+
+  .services p{
+    font-family: 'Oswald', sans-serif;
+    font-size: 12pt;
+    letter-spacing: 0.046em;
+    color: #f7f7f7;
+    font-weight: 300;
+    text-decoration: none;
+    margin-top: 30px;
+  }
+
+  /* CONTACT */
+
+  /* Style inputs with type="text", select elements and textareas */
+  input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */
+    border: 1px solid #5d5d64; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+    color: #5d5d64;
+  }
+
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #f7f7f7;
+    color: #5d5d64;
+    padding: 12px 135px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #94aca2;
+  }
+
+  /* Add a background color and some padding around the form */
+  .contact {
+    border-radius: 5px;
+    background-color: #d0cfc2;
+    padding-top: 20px;
+    width: 100%;
+    height: 500px;
+    text-align: center;
+  }
+
+  #together{
+    width: 180px;
+    height: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    padding-bottom: 10px;
+  }
+
+  #together h1{
+    font-family: 'Oswald', sans-serif;
+    font-size: 14pt;
+    letter-spacing: 0.046em;
+    color: #5d5d64;
+    font-weight: 300;
+    text-decoration: none;
+    text-align: center;
+  }
+
+  #sendmessage{
+    width: 195px;
+    height: 30px;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    padding-bottom: 10px;
+  }
+
+  #sendmessage p{
+    font-family: 'Oswald', sans-serif;
+    font-size: 12pt;
+    letter-spacing: 0.046em;
+    line-height: 20px;
+    color: #5d5d64;
+    font-weight: 300;
+    text-decoration: none;
+    text-align: center;
+  }
+
+  #contact{
+    height: 430px;
+    width: 350px;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+  }
+
+  #name{
+    width: 300px;
+  }
+
+  #email{
+    width: 300px;
+  }
+
+  #subject{
+    width: 300px;
+  }
+
+  #message{
+    width: 300px;
+    height: 135px;
+  }
+
+  /* FOOTER */
+
+  .footer{
+    width: 350px;
+    height: 190px;
+    margin-left: auto;
+    padding-top: 35px;
+    margin-right: auto;
+    position: relative;
+  }
+
+  #connect{
+    width: 140px;
+    height: 14px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    padding-bottom: 30px
+  }
+
+  #connect h1{
+    font-family: 'Oswald', sans-serif;
+    font-size: 14pt;
+    letter-spacing: 0.046em;
+    color: #5d5d64;
+    font-weight: 300;
+    text-decoration: none;
+    text-align: center;
+  }
+
+  #socialmedia{
+    width: 200px;
+    height: 26px;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+  }
+
+  #facebook{
+    background: url("../img/facebook01.jpg") no-repeat;
+    width: 26px;
+    height: 26px;
+    float: left;
+  }
+
+  #googleplus{
+    background: url("../img/googleplus01.jpg") no-repeat;
+    width: 26px;
+    height: 26px;
+    margin-top: -26px;
+    margin-left: 44px;
+  }
+
+  #instagram{
+    background: url("../img/instagram01.jpg") no-repeat;
+    width: 26px;
+    height: 26px;
+    margin-top: -26px;
+    margin-left: 87px;
+  }
+
+  #linkedin{
+    background: url("../img/linkedin01.jpg") no-repeat;
+    width: 26px;
+    height: 26px;
+    margin-top: -26px;
+    margin-left: 130px;
+  }
+
+  #pinterest{
+    background: url("../img/pinterest01.jpg") no-repeat;
+    width: 26px;
+    height: 26px;
+    margin-top: -26px;
+    float: right;
+  }
+
+  #poem{
+    width: 340px;
+    height: 54px;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+  }
+
+  #left{
+    width: 170px;
+    height: 50px;
+    float: left;
+  }
+
+  #left p{
+    font-family: 'Oswald', sans-serif;
+    font-size: 8pt;
+    letter-spacing: 0.046em;
+    color: #5d5d64;
+    font-weight: 300;
+    text-decoration: none;
+    text-align: center;
+  }
+
+  #right{
+    width: 170px;
+    height: 50px;
+    float: right;
+  }
+
+  #right p{
+    font-family: 'Oswald', sans-serif;
+    font-size: 8pt;
+    letter-spacing: 0.046em;
+    color: #5d5d64;
+    font-weight: 300;
+    text-decoration: none;
+    text-align: center;
+  }
+
+/* ======================================================================== */
+/* ===================== STYLES FOR TABLET DEVICE ========================= */
+/* ======================================================================== */
+@media only screen and (min-width: 1024px) {
+  a, p, h1, h2, h3, ul, ol, li, img{
+    margin: 0;
+    padding: 0;
+  }
+
+  ul, ol, li{
+    list-style: none;
+  }
+
+  body{
+    background-color: #f7f7f7;
+    margin: 0;
+  }
+
+  /* TOP NAVIGATION */
+
+  .topnav{
+    width: 1024px;
+    height: 180px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .dropbtn {
+    background: url("../img/dropdown.png") no-repeat;
+    width: 24px;
+    height: 18px;
+    border: none;
+    cursor: pointer;
+  }
+
+  .dropdown {
+    background: url("../img/dropdown.png") no-repeat;
+    width: 24px;
+    height: 18px;
+    position: relative;
+    margin-top: -15px;
+    margin-left: -15px;
+    display: inline-block;
+    position: fixed;
+    z-index: 99;
+    display: none;
+  }
+
+  .dropdown-content {
+      display: none;
+      position: absolute;
+      z-index: 1;
+  }
+
+  .dropdown-content:hover {
+    cursor: pointer;
+  }
+
+  .dropdown:hover .dropdown-content {
+      display: block;
+  }
+
+  .dropdown:hover .dropbtn {
+      display: none;
+  }
+
+  .navigation{
+    background-color: #f7f7f7;
+    height: 12px;
+    width: 100%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    display:inline-block;
+  }
+
+  .navigation ul {
+    display: inline-block;
+  }
+
+  .navigation li{
+    float: left;
+  }
+
+  .navigation li a{
+    font-family: 'Oswald', sans-serif;
+    font-size: 12pt;
+    letter-spacing: 0.046em;
+    color: #5d5d64;
+    font-weight: 300;
+    text-decoration: none;
+    text-align: center;
+    display: inline;
+    padding-left: 100px;
+  }
+
+  #home01{
+    background: url("../img/home01.png") no-repeat;
+    width: 65px;
+    height: 24px;
+  }
+
+  #home01:hover{
+    background: url("../img/homehover01.png") no-repeat;
+    width: 65px;
+    height: 24px;
+  }
+
+  #about01{
+    background: url("../img/about01.png") no-repeat;
+    width: 65px;
+    height: 24px;
+  }
+
+  #about01:hover{
+    background: url("../img/abouthover01.png") no-repeat;
+    width: 65px;
+    height: 24px;
+  }
+
+  #portfolio01{
+    background: url("../img/portfolio01.png") no-repeat;
+    width: 65px;
+    height: 24px;
+  }
+
+  #portfolio01:hover{
+    background: url("../img/portfoliohover01.png") no-repeat;
+    width: 65px;
+    height: 24px;
+  }
+
+  #services01{
+    background: url("../img/services01.png") no-repeat;
+    width: 65px;
+    height: 24px;
+  }
+
+  #services01:hover{
+    background: url("../img/serviceshover01.png") no-repeat;
+    width: 65px;
+    height: 24px;
+  }
+
+  #contact01{
+    background: url("../img/contact01.png") no-repeat;
+    width: 65px;
+    height: 24px;
+  }
+
+  #contact01:hover{
+    background: url("../img/contacthover01.png") no-repeat;
+    width: 65px;
+    height: 24px;
+  }
+
+  #logo{
+    background: url("../img/logoheader01.png") no-repeat;
+    width: 209px;
+    height: 131px;
+    display: block;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 20px;
+    padding-bottom: 25px
+  }
+
+  /* ABOUT SECTION */
+
+  .about{
+    background-color: #94aca2;
+    height: 550px;
+    width: 100%;
+    padding-top: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+  }
+
+  #box01{
+    width: 830px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+  }
+
+  #me{
+    background: url("../img/me02.jpg") no-repeat;
+    width: 391px;
+    height: 391px;
+    margin-left: 0px;
+    margin-top: 130px;
+    position: absolute;
+  }
+
+  #welcome{
+    background: url("../img/welcome02.png") no-repeat;
+    width: 494px;
+    height: 124px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -20px;
+    position: relative;
+  }
+
+  #textbox01{
+    width: 394px;
+    height: 306px;
+    margin-left: auto;
+    margin-right: 0px;
+  }
+
+  .about p{
+    font-family: 'Oswald', sans-serif;
+    font-size: 12pt;
+    letter-spacing: 0.046em;
+    color: #f7f7f7;
+    font-weight: 300;
+    text-decoration: none;
+    margin-top: 30px;
+  }
+
+  /* PORTFOLIO */
+
+  .portfolio{
+    width: 100%;
+    height: 650px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+  }
+
+  #box02{
+    width: 850px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+  }
+
+  #featured{
+    width: 200px;
+    height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    padding-bottom: 25px;
+  }
+
+  #featured h1{
+    font-family: 'Oswald', sans-serif;
+    font-size: 20pt;
+    letter-spacing: 0.046em;
+    color: #5d5d64;
+    font-weight: 300;
+    text-decoration: none;
+    margin-top: 30px;
+    text-align: center;
+  }
+
+  #print{
+    background: url("../img/print02.jpg") no-repeat;
+    width: 247px;
+    height: 245px;
+    margin-top: 5px;
+    float: left;
+  }
+
+  #print:hover{
+    background: url("../img/hover_print02.jpg") no-repeat;
+    width: 247px;
+    height: 245px;
+  }
+
+  #packaging{
+    background: url("../img/packaging02.jpg") no-repeat;
+    width: 247px;
+    height: 245px;
+    margin-top: 5px;
+    margin-right: 286px;
+
+  }
+
+  #packaging:hover{
+    background: url("../img/hover_packaging02.jpg") no-repeat;
+    width: 247px;
+    height: 245px;
+  }
+
+  #web{
+    background: url("../img/web02.jpg") no-repeat;
+    width: 247px;
+    height: 245px;
+    margin-top: -245px;
+    margin-left: 30px;
+    float: right;
+  }
+
+  #web:hover{
+    background: url("../img/hover_web02.jpg") no-repeat;
+    width: 247px;
+    height: 245px;
+  }
+
+  #social{
+    background: url("../img/social02.jpg") no-repeat;
+    width: 247px;
+    height: 245px;
+    margin-top: 25px;
+    margin-left: 30px;
+    float: left;
+  }
+
+  #social:hover{
+    background: url("../img/hover_social02.jpg") no-repeat;
+    width: 247px;
+    height: 245px;
+  }
+
+  #branding{
+    background: url("../img/branding02.jpg") no-repeat;
+    width: 247px;
+    height: 245px;
+    margin-top: 25px;
+    margin-left: 12px;
+  }
+
+  #branding:hover{
+    background: url("../img/hover_branding02.jpg") no-repeat;
+    width: 247px;
+    height: 245px;
+  }
+
+  #other{
+    background: url("../img/other02.jpg") no-repeat;
+    width: 247px;
+    height: 245px;
+    margin-top: 25px;
+    margin-right: 0px;
+    float: right;
+  }
+
+  #other:hover{
+    background: url("../img/hover_other02.jpg") no-repeat;
+    width: 247px;
+    height: 245px;
+  }
+
+  /* SERVICES */
+
+  .services{
+    background-color: #c07d5d;
+    width: 100%;
+    height: 550px;
+    padding-top: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+  }
+
+  #box03{
+    width: 850px;
+    height: 350px;
+    margin-top: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+  }
+
+  #sketchbook{
+    background: url("../img/sketchbook02.jpg") no-repeat;
+    width: 385px;
+    height: 385px;
+    margin-top: 90px;
+    margin-left: auto;
+    margin-right: 0;
+    position: relative;
+  }
+
+  #getby{
+    width: 800px;
+    height: 30px;
+    margin-top: -500px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+  }
+
+  #getby h1{
+    font-family: 'Oswald', sans-serif;
+    font-size: 20pt;
+    letter-spacing: 0.046em;
+    color: #f7f7f7;
+    font-weight: 300;
+    text-decoration: none;
+    text-align: center;
+  }
+
+  #textbox02{
+    width: 415px;
+    height: 360px;
+    margin-top: -35px;
+    float: left;
+    position: relative;
+  }
+
+  .services p{
+    font-family: 'Oswald', sans-serif;
+    font-size: 12pt;
+    letter-spacing: 0.046em;
+    color: #f7f7f7;
+    font-weight: 300;
+    text-decoration: none;
+    margin-top: 30px;
+  }
+
+  /* CONTACT */
+
+  /* Style inputs with type="text", select elements and textareas */
+  input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */
+    border: 1px solid #5d5d64; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+    color: #5d5d64;
+  }
+
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #f7f7f7;
+    color: #5d5d64;
+    padding: 12px 238px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #94aca2;
+  }
+
+  /* Add a background color and some padding around the form */
+  .contact {
+    border-radius: 5px;
+    background-color: #d0cfc2;
+    padding-top: 20px;
+    width: 100%;
+    height: 680px;
+    text-align: center;
+  }
+
+  #together{
+    width: 270px;
+    height: 20px;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    padding-bottom: 10px;
+  }
+
+  #together h1{
+    font-family: 'Oswald', sans-serif;
+    font-size: 20pt;
+    letter-spacing: 0.046em;
+    color: #5d5d64;
+    font-weight: 300;
+    text-decoration: none;
+    text-align: center;
+  }
+
+  #sendmessage{
+    width: 395px;
+    height: 30px;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    padding-bottom: 10px;
+  }
+
+  #sendmessage p{
+    font-family: 'Oswald', sans-serif;
+    font-size: 12pt;
+    letter-spacing: 0.046em;
+    line-height: 20px;
+    color: #5d5d64;
+    font-weight: 300;
+    text-decoration: none;
+    text-align: center;
+  }
+
+  #contact{
+    height: 465px;
+    width: 595px;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+  }
+
+  #name{
+    width: 250px;
+  }
+
+  #email{
+    width: 250px;
+  }
+
+  #subject{
+    width: 505px;
+  }
+
+  #message{
+    width: 505px;
+    height: 282px;
+  }
+
+  /* FOOTER */
+
+  .footer{
+    width: 600px;
+    height: 100px;
+    margin-left: auto;
+    padding-top: 15px;
+    margin-right: auto;
+    position: relative;
+  }
+
+  #connect{
+    width: 140px;
+    height: 20px;
+    margin-right: 15px;
+    float: right;
+  }
+
+  #connect h1{
+    font-family: 'Oswald', sans-serif;
+    font-size: 14pt;
+    letter-spacing: 0.046em;
+    color: #5d5d64;
+    font-weight: 300;
+    text-decoration: none;
+    text-align: center;
+  }
+
+  #socialmedia{
+    width: 200px;
+    height: 26px;
+    margin-top: 65px;
+    margin-right: -165px;
+    float: right;
+    position: relative;
+  }
+
+  #facebook{
+    background: url("../img/facebook01.jpg") no-repeat;
+    width: 26px;
+    height: 26px;
+    margin-top: -26px;
+    float: left;
+  }
+
+  #googleplus{
+    background: url("../img/googleplus01.jpg") no-repeat;
+    width: 26px;
+    height: 26px;
+    margin-top: -26px;
+    margin-left: 44px;
+  }
+
+  #instagram{
+    background: url("../img/instagram01.jpg") no-repeat;
+    width: 26px;
+    height: 26px;
+    margin-top: -26px;
+    margin-left: 87px;
+  }
+
+  #linkedin{
+    background: url("../img/linkedin01.jpg") no-repeat;
+    width: 26px;
+    height: 26px;
+    margin-top: -26px;
+    margin-left: 130px;
+  }
+
+  #pinterest{
+    background: url("../img/pinterest01.jpg") no-repeat;
+    width: 26px;
+    height: 26px;
+    margin-top: -26px;
+    float: right;
+  }
+
+  #poem{
+    width: 340px;
+    height: 54px;
+    margin-top: 5px;
+    float: left;
+  }
+
+  #left{
+    width: 170px;
+    height: 50px;
+    float: left;
+  }
+
+  #left p{
+    font-family: 'Oswald', sans-serif;
+    font-size: 8pt;
+    letter-spacing: 0.046em;
+    color: #5d5d64;
+    font-weight: 300;
+    text-decoration: none;
+    text-align: center;
+  }
+
+  #right{
+    width: 170px;
+    height: 50px;
+    float: right;
+  }
+
+  #right p{
+    font-family: 'Oswald', sans-serif;
+    font-size: 8pt;
+    letter-spacing: 0.046em;
+    color: #5d5d64;
+    font-weight: 300;
+    text-decoration: none;
+    text-align: center;
+  }
+}
+
+/* ======================================================================== */
+/* ===================== STYLES FOR DESKTOP DEVICE ========================= */
+/* ======================================================================== */
+@media only screen and (min-width: 1200px) {
+  a, p, h1, h2, h3, ul, ol, li, img{
+    margin: 0;
+    padding: 0;
+  }
+
+  ul, ol, li{
+    list-style: none;
+  }
+
+  body{
+    background-color: #f7f7f7;
+    margin: 0;
+  }
+
+  /* TOP NAVIGATION */
+
+  .topnav{
+    width: 100%;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .dropbtn {
+    background: url("../img/dropdown.png") no-repeat;
+    width: 24px;
+    height: 18px;
+    border: none;
+    cursor: pointer;
+  }
+
+  .dropdown {
+    background: url("../img/dropdown.png") no-repeat;
+    width: 24px;
+    height: 18px;
+    position: relative;
+    margin-top: -15px;
+    margin-left: -15px;
+    display: inline-block;
+    position: fixed;
+    z-index: 99;
+    display: none;
+  }
+
+  .dropdown-content {
+      display: none;
+      position: absolute;
+      z-index: 1;
+  }
+
+  .dropdown-content:hover {
+    cursor: pointer;
+  }
+
+  .dropdown:hover .dropdown-content {
+      display: block;
+  }
+
+  .dropdown:hover .dropbtn {
+      display: none;
+  }
+
+  .navigation{
+    background-color: #f7f7f7;
+    height: 20px;
+    width: 100%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    display:inline-block;
+  }
+
+  .navigation ul {
+    display: inline-block;
+  }
+
+  .navigation li{
+    float: left;
+  }
+
+  .navigation li a{
+    font-family: 'Oswald', sans-serif;
+    font-size: 20pt;
+    letter-spacing: 0.046em;
+    color: #5d5d64;
+    font-weight: 300;
+    text-decoration: none;
+    text-align: center;
+    display: inline;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+  }
+
+  #home01{
+    background: url("../img/home01.png") no-repeat;
+    width: 65px;
+    height: 24px;
+  }
+
+  #home01:hover{
+    background: url("../img/homehover01.png") no-repeat;
+    width: 65px;
+    height: 24px;
+  }
+
+  #about01{
+    background: url("../img/about01.png") no-repeat;
+    width: 65px;
+    height: 24px;
+  }
+
+  #about01:hover{
+    background: url("../img/abouthover01.png") no-repeat;
+    width: 65px;
+    height: 24px;
+  }
+
+  #portfolio01{
+    background: url("../img/portfolio01.png") no-repeat;
+    width: 65px;
+    height: 24px;
+  }
+
+  #portfolio01:hover{
+    background: url("../img/portfoliohover01.png") no-repeat;
+    width: 65px;
+    height: 24px;
+  }
+
+  #services01{
+    background: url("../img/services01.png") no-repeat;
+    width: 65px;
+    height: 24px;
+  }
+
+  #services01:hover{
+    background: url("../img/serviceshover01.png") no-repeat;
+    width: 65px;
+    height: 24px;
+  }
+
+  #contact01{
+    background: url("../img/contact01.png") no-repeat;
+    width: 65px;
+    height: 24px;
+  }
+
+  #contact01:hover{
+    background: url("../img/contacthover01.png") no-repeat;
+    width: 65px;
+    height: 24px;
+  }
+
+  #logo{
+    background: url("../img/logoheader03.png") no-repeat;
+    width: 304px;
+    height: 184px;
+    display: block;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    position: inherit;
+    padding-bottom: 35px;
+  }
+
+  /* ABOUT SECTION */
+
+  .about{
+    background-color: #94aca2;
+    height: 900px;
+    width: 100%;
+    padding-top: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+  }
+
+  #box01{
+    width: 1100px;
+    height: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+  }
+
+  #me{
+    background: url("../img/me03.jpg") no-repeat;
+    width: 571px;
+    height: 571px;
+    margin-left: 0px;
+    margin-top: 225px;
+    position: absolute;
+  }
+
+  #welcome{
+    background: url("../img/welcome03.png") no-repeat;
+    width: 748px;
+    height: 203px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -20px;
+    position: relative;
+  }
+
+  #textbox01{
+    width: 450px;
+    height: 455px;
+    margin-left: auto;
+    margin-right: 0px;
+  }
+
+  .about p{
+    font-family: 'Oswald', sans-serif;
+    font-size: 15pt;
+    letter-spacing: 0.046em;
+    color: #f7f7f7;
+    font-weight: 300;
+    text-decoration: none;
+    margin-top: 15px;
+  }
+
+  /* PORTFOLIO */
+
+  .portfolio{
+    width: 100%;
+    height: 850px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+  }
+
+  #box02{
+    width: 1100px;
+    height: 780px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+  }
+
+  #featured{
+    width: 200px;
+    height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    padding-bottom: 25px;
+  }
+
+  #featured h1{
+    font-family: 'Oswald', sans-serif;
+    font-size: 20pt;
+    letter-spacing: 0.046em;
+    color: #5d5d64;
+    font-weight: 300;
+    text-decoration: none;
+    margin-top: 30px;
+    text-align: center;
+  }
+
+  #print{
+    background: url("../img/print03.jpg") no-repeat;
+    width: 327px;
+    height: 327px;
+    margin-top: 5px;
+    float: left;
+  }
+
+  #print:hover{
+    background: url("../img/hover_print03.jpg") no-repeat;
+    width: 327px;
+    height: 327px;
+  }
+
+  #packaging{
+    background: url("../img/packaging03.jpg") no-repeat;
+    width: 327px;
+    height: 327px;
+    margin-top: 5px;
+    margin-right: 385px;
+
+  }
+
+  #packaging:hover{
+    background: url("../img/hover_packaging03.jpg") no-repeat;
+    width: 327px;
+    height: 327px;
+  }
+
+  #web{
+    background: url("../img/web03.jpg") no-repeat;
+    width: 327px;
+    height: 327px;
+    margin-top: -327px;
+    margin-right: 25px;
+    float: right;
+  }
+
+  #web:hover{
+    background: url("../img/hover_web03.jpg") no-repeat;
+    width: 327px;
+    height: 327px;
+  }
+
+  #social{
+    background: url("../img/social03.jpg") no-repeat;
+    width: 327px;
+    height: 327px;
+    margin-top: 25px;
+    margin-left: 30px;
+    float: left;
+  }
+
+  #social:hover{
+    background: url("../img/hover_social03.jpg") no-repeat;
+    width: 327px;
+    height: 327px;
+  }
+
+  #branding{
+    background: url("../img/branding03.jpg") no-repeat;
+    width: 327px;
+    height: 327px;
+    margin-top: 25px;
+    margin-left: 2px;
+  }
+
+  #branding:hover{
+    background: url("../img/hover_branding03.jpg") no-repeat;
+    width: 327px;
+    height: 327px;
+  }
+
+  #other{
+    background: url("../img/other03.jpg") no-repeat;
+    width: 327px;
+    height: 327px;
+    margin-top: 25px;
+    margin-right: 27px;
+    float: right;
+  }
+
+  #other:hover{
+    background: url("../img/hover_other03.jpg") no-repeat;
+    width: 327px;
+    height: 327px;
+  }
+
+  /* SERVICES */
+
+  .services{
+    background-color: #c07d5d;
+    width: 100%;
+    height: 750px;
+    padding-top: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+  }
+
+  #box03{
+    width: 1100px;
+    height: 680px;
+    margin-top: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+  }
+
+  #sketchbook{
+    background: url("../img/sketchbook03.jpg") no-repeat;
+    width: 573px;
+    height: 573px;
+    margin-top: 90px;
+    margin-left: auto;
+    margin-right: 0;
+    position: relative;
+  }
+
+  #getby{
+    width: 800px;
+    height: 30px;
+    margin-top: -680px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+  }
+
+  #getby h1{
+    font-family: 'Oswald', sans-serif;
+    font-size: 20pt;
+    letter-spacing: 0.046em;
+    color: #f7f7f7;
+    font-weight: 300;
+    text-decoration: none;
+    text-align: center;
+  }
+
+  #textbox02{
+    width: 500px;
+    height: 480px;
+    margin-top: -35px;
+    float: left;
+    position: relative;
+  }
+
+  .services p{
+    font-family: 'Oswald', sans-serif;
+    font-size: 15pt;
+    letter-spacing: 0.046em;
+    color: #f7f7f7;
+    font-weight: 300;
+    text-decoration: none;
+    margin-top: 30px;
+  }
+
+  /* CONTACT */
+
+  /* Style inputs with type="text", select elements and textareas */
+  input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */
+    border: 1px solid #5d5d64; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+    color: #5d5d64;
+  }
+
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #f7f7f7;
+    color: #5d5d64;
+    padding: 12px 238px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #94aca2;
+  }
+
+  /* Add a background color and some padding around the form */
+  .contact {
+    border-radius: 5px;
+    background-color: #d0cfc2;
+    padding-top: 20px;
+    width: 100%;
+    height: 680px;
+    text-align: center;
+  }
+
+  #together{
+    width: 270px;
+    height: 20px;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    padding-bottom: 10px;
+  }
+
+  #together h1{
+    font-family: 'Oswald', sans-serif;
+    font-size: 20pt;
+    letter-spacing: 0.046em;
+    color: #5d5d64;
+    font-weight: 300;
+    text-decoration: none;
+    text-align: center;
+  }
+
+  #sendmessage{
+    width: 395px;
+    height: 30px;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    padding-bottom: 10px;
+  }
+
+  #sendmessage p{
+    font-family: 'Oswald', sans-serif;
+    font-size: 12pt;
+    letter-spacing: 0.046em;
+    line-height: 20px;
+    color: #5d5d64;
+    font-weight: 300;
+    text-decoration: none;
+    text-align: center;
+  }
+
+  #contact{
+    height: 465px;
+    width: 595px;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+  }
+
+  #name{
+    width: 250px;
+  }
+
+  #email{
+    width: 250px;
+  }
+
+  #subject{
+    width: 505px;
+  }
+
+  #message{
+    width: 505px;
+    height: 282px;
+  }
+
+  /* FOOTER */
+
+  .footer{
+    width: 600px;
+    height: 100px;
+    margin-left: auto;
+    padding-top: 15px;
+    margin-right: auto;
+    position: relative;
+  }
+
+  #connect{
+    width: 140px;
+    height: 20px;
+    margin-right: 15px;
+    float: right;
+  }
+
+  #connect h1{
+    font-family: 'Oswald', sans-serif;
+    font-size: 14pt;
+    letter-spacing: 0.046em;
+    color: #5d5d64;
+    font-weight: 300;
+    text-decoration: none;
+    text-align: center;
+  }
+
+  #socialmedia{
+    width: 200px;
+    height: 26px;
+    margin-top: 65px;
+    margin-right: -165px;
+    float: right;
+    position: relative;
+  }
+
+  #facebook{
+    background: url("../img/facebook01.jpg") no-repeat;
+    width: 26px;
+    height: 26px;
+    margin-top: -26px;
+    float: left;
+  }
+
+  #googleplus{
+    background: url("../img/googleplus01.jpg") no-repeat;
+    width: 26px;
+    height: 26px;
+    margin-top: -26px;
+    margin-left: 44px;
+  }
+
+  #instagram{
+    background: url("../img/instagram01.jpg") no-repeat;
+    width: 26px;
+    height: 26px;
+    margin-top: -26px;
+    margin-left: 87px;
+  }
+
+  #linkedin{
+    background: url("../img/linkedin01.jpg") no-repeat;
+    width: 26px;
+    height: 26px;
+    margin-top: -26px;
+    margin-left: 130px;
+  }
+
+  #pinterest{
+    background: url("../img/pinterest01.jpg") no-repeat;
+    width: 26px;
+    height: 26px;
+    margin-top: -26px;
+    float: right;
+  }
+
+  #poem{
+    width: 340px;
+    height: 54px;
+    margin-top: 5px;
+    float: left;
+  }
+
+  #left{
+    width: 170px;
+    height: 50px;
+    float: left;
+  }
+
+  #left p{
+    font-family: 'Oswald', sans-serif;
+    font-size: 8pt;
+    letter-spacing: 0.046em;
+    color: #5d5d64;
+    font-weight: 300;
+    text-decoration: none;
+    text-align: center;
+  }
+
+  #right{
+    width: 170px;
+    height: 50px;
+    float: right;
+  }
+
+  #right p{
+    font-family: 'Oswald', sans-serif;
+    font-size: 8pt;
+    letter-spacing: 0.046em;
+    color: #5d5d64;
+    font-weight: 300;
+    text-decoration: none;
+    text-align: center;
+  }
+}

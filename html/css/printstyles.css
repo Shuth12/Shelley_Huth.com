@@ -1,0 +1,250 @@
+/* ======================================================================== */
+/* ===================== STYLES FOR MOBILE DEVICE ========================= */
+/* ======================================================================== */
+
+  a, p, h1, h2, h3, ul, ol, li, img{
+    margin: 0;
+    padding: 0;
+  }
+
+  ul, ol, li{
+    list-style: none;
+  }
+
+  body{
+    background-color: #f7f7f7;
+    margin: 0;
+  }
+
+  /* TOP NAVIGATION */
+
+  .topnav{
+    width: 350px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #logo{
+    background: url("../img/logoheader01.png") no-repeat;
+    width: 209px;
+    height: 131px;
+    display: block;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 20px;
+  }
+
+  /* PRINT SECTION */
+
+  .print{
+    background-color: #f7f7f7;
+    height: 500px;
+    width: 100%;
+    padding-top: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+  }
+
+  #printwork{
+    width: 135px;
+    height: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    padding-bottom: 25px;
+  }
+
+  #printwork h1{
+    font-family: 'Oswald', sans-serif;
+    font-size: 14pt;
+    letter-spacing: 0.046em;
+    color: #5d5d64;
+    font-weight: 300;
+    text-decoration: none;
+    margin-top: -60px;
+    text-align: center;
+  }
+
+  #work{
+    background: url("../img/printwork01.jpg") no-repeat;
+    width: 279px;
+    height: 368px;
+    display: block;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #textbox02{
+    width: 350px;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    padding-left: 60px;
+  }
+
+  #textbox02 p{
+    font-family: 'Oswald', sans-serif;
+    font-size: 12pt;
+    letter-spacing: 0.046em;
+    color: #5d5d64;
+    font-weight: 300;
+    text-decoration: none;
+    margin-top: 10px;
+  }
+
+  #textbox03{
+    width: 350px;
+    height: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    padding-left: 60px;
+  }
+
+  #textbox03 h1{
+    font-family: 'Oswald', sans-serif;
+    font-size: 12pt;
+    letter-spacing: 0.046em;
+    color: #5d5d64;
+    font-weight: 300;
+    text-decoration: none;
+    margin-top: 30px;
+    text-align: center;
+    margin-left: -60px;
+  }
+
+  a:link {
+    text-decoration: none;
+  }
+
+/* ======================================================================== */
+/* ===================== STYLES FOR TABLET DEVICE ========================= */
+/* ======================================================================== */
+@media only screen and (min-width: 1024px) {
+  a, p, h1, h2, h3, ul, ol, li, img{
+    margin: 0;
+    padding: 0;
+  }
+
+  ul, ol, li{
+    list-style: none;
+  }
+
+  body{
+    background-color: #f7f7f7;
+    margin: 0;
+  }
+
+  /* TOP NAVIGATION */
+
+  .topnav{
+    width: 1024px;
+    height: 180px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #logo{
+    background: url("../img/logoheader01.png") no-repeat;
+    width: 209px;
+    height: 131px;
+    display: block;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 20px;
+    padding-bottom: 25px
+  }
+
+  /* PRINT SECTION */
+
+  .print{
+    background-color: #f7f7f7;
+    height: 800px;
+    width: 100%;
+    padding-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+  }
+
+  #printwork{
+    width: 200px;
+    height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    padding-bottom: 25px;
+  }
+
+  #printwork h1{
+    font-family: 'Oswald', sans-serif;
+    font-size: 20pt;
+    letter-spacing: 0.046em;
+    color: #5d5d64;
+    font-weight: 300;
+    text-decoration: none;
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  #work{
+    background: url("../img/printwork02.jpg") no-repeat;
+    width: 1080px;
+    height: 627px;
+    display: block;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #textbox02{
+    width: 350px;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 800px;
+  }
+
+  #textbox02 p{
+    font-family: 'Oswald', sans-serif;
+    font-size: 12pt;
+    letter-spacing: 0.046em;
+    color: #5d5d64;
+    font-weight: 300;
+    text-decoration: none;
+    margin-top: 10px;
+  }
+
+  #textbox03{
+    width: 350px;
+    height: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    padding-left: 60px;
+  }
+
+  #textbox03 h1{
+    font-family: 'Oswald', sans-serif;
+    font-size: 12pt;
+    letter-spacing: 0.046em;
+    color: #5d5d64;
+    font-weight: 300;
+    text-decoration: none;
+    margin-top: 30px;
+    text-align: center;
+    margin-left: -60px;
+    padding-bottom: 30px;
+  }
+
+  a:link {
+    text-decoration: none;
+  }
+
+}
